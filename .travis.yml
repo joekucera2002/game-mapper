@@ -5,3 +5,6 @@ before_install:
   cd ./src/game-mapper/src
 install:
   npm install
+script:
+  - npm run lint
+  - npm run test
