@@ -10,8 +10,8 @@ install:
   - cd .\src\game-mapper\src
   - npm install
 
-# Don't run build scripts
-build: off
+build: 
+  - npm run build
 
 # Post-install test scripts.
 test_script:
@@ -19,4 +19,5 @@ test_script:
   - node --version
   - npm --version
   # run tests
-  - npm test
+  - npm run lint
+  - npm run test
