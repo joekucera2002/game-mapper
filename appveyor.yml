@@ -10,6 +10,9 @@ install:
   - cd .\src\game-mapper\src
   - npm install
 
+# Don't run build scripts
+build: off
+
 # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
