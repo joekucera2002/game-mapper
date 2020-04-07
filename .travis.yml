@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - 10
 install:
-  cd .\src\game-mapper\src
+  cd ./src/game-mapper/src
   npm install
